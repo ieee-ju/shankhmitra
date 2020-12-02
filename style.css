@@ -106,8 +106,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
    img {
     width: 70vw;
     height:50vh;
-    border-bottom-left-radius: 15%;
-    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 8%;
+    border-bottom-right-radius: 8%;
+    border-top-left-radius: 8%;
+    border-top-right-radius: 8%;
   }
   @media(max-width:768px) {
     img{
