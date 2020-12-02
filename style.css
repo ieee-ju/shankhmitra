@@ -166,7 +166,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     padding: 3em;
   }
   
-  input[type="text"], input[type="email"], input[type="password"] {
+  input[type="text"], input[type="email"], input[type="password"] ,input[type="tel"]{
     font-size: 0.9em;
     color: #fff;
     font-weight: 100;
@@ -186,7 +186,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-family: 'Roboto', sans-serif;
   }
   
-  input.email, input.text.w3lpass {
+  input.email, input.tel,input.text.w3lpass {
     margin: 2em 0;
   }
   
@@ -246,7 +246,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     -o-transition: .5s all;
     -ms-transition: .5s all;
     transition: .5s all;
-    background: #8DC26F;
+    background: rgb(20, 39, 148);
   }
   
   .agileits-top p {
@@ -780,7 +780,4 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     .main-w3layouts {
       padding: 1em 0 0;
     }
-    .image-container {
-      
-      }
   }
